@@ -5,10 +5,10 @@ services:
     environment:
       USERNAME: "admin"
       PASSWORD: "admin123"
-      DISK_SIZE: "20G"
-      RAM_SIZE: "4G"
-      CPU_CORES: "2"
-      VERSION: "https://archive.org/download/windows-10-tiny-b-4-x-64/Windows%2010%20%28tiny%20b4%29-X64.iso"
+      DISK_SIZE: "40G"
+      RAM_SIZE: "8G"
+      CPU_CORES: "4"
+      VERSION: "10"
     devices:
       - /dev/kvm
       - /dev/net/tun
